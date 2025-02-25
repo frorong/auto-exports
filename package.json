@@ -1,14 +1,29 @@
 {
   "name": "auto-exports",
   "displayName": "auto-exports",
-  "description": "",
-  "version": "0.0.1",
+  "description": "Automatically generate barrel (index) exports for your components",
+  "version": "0.0.2",
+  "publisher": "sjlee",
   "engines": {
-    "vscode": "^1.97.0"
+    "vscode": "^1.80.0"
   },
   "categories": [
+    "Programming Languages",
+    "Formatters",
     "Other"
   ],
+  "keywords": [
+    "barrel",
+    "export",
+    "typescript",
+    "javascript",
+    "react"
+  ],
+  "icon": "File_Upload.png",
+  "galleryBanner": {
+    "color": "#C80000",
+    "theme": "dark"
+  },
   "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
@@ -76,7 +91,7 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.97.0",
+    "@types/vscode": "^1.80.0",
     "@types/mocha": "^10.0.10",
     "@types/node": "20.x",
     "@typescript-eslint/eslint-plugin": "^8.22.0",
@@ -88,5 +103,10 @@
     "webpack-cli": "^6.0.1",
     "@vscode/test-cli": "^0.0.10",
     "@vscode/test-electron": "^2.4.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frorong/auto-exports.git"
+  },
+  "license": "MIT"
 }
