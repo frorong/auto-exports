@@ -2,7 +2,7 @@
   "name": "auto-exports",
   "displayName": "auto-exports",
   "description": "Automatically generate barrel (index) exports for your components",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "sjlee",
   "engines": {
     "vscode": "^1.80.0"
@@ -19,7 +19,7 @@
     "javascript",
     "react"
   ],
-  "icon": "File_Upload.png",
+  "icon": "images/File_Upload.png",
   "galleryBanner": {
     "color": "#C80000",
     "theme": "dark"
